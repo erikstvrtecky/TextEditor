@@ -28,7 +28,7 @@ public class MojaDB {
             statement.execute(sql);
             System.out.println("tabulka vytvorena"); */
 
-            String sqlinsert = "INSERT INTO POKUS VALUES (1, 'Erik', 'Stvrtecky', 19);";
+            String sqlinsert = "INSERT INTO POKUS VALUES (3, 'Juu', 'Olll', 20);";
             statement.execute(sqlinsert);
             System.out.println("data vlozene");
             spojenie.close();
